@@ -8,6 +8,31 @@ body {
     color: rgb(100, 38, 38);
     background-color: gray;
 }
-.bio {
-
+header{
+        background-image: url("../images/wolf.jpg");
+        background-size: cover;
+        display: flex;
+        background-position-y: 75%;
+        padding: 50px;
+    
+}
+h2 {
+    font-weight: bold;
+    text-align: center;
+}
+section div {
+    text-align: center;
+    margin: 35px;
+    padding: 25px;
+}
+.work {
+    background-image: url(../../run-buddy/index1.html)
+}
+footer div {
+    text-align: center;
+    margin: 20px;
+}
+.info {
+    padding: 15px;
+   
 }
