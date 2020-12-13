@@ -6,7 +6,7 @@
 body {
     font-family: cursive;
     color: rgb(100, 38, 38);
-    background-color: gray;
+    background-color: rgb(131, 131, 131);
 }
 header{
         background-image: url("../images/wolf.jpg");
@@ -16,23 +16,58 @@ header{
         padding: 50px;
     
 }
+header nav ul li {
+    font-size: 25px;
+    color: seashell;
+}
 h2 {
     font-weight: bold;
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-columns: 3;
 
+}
+.bio {
+    border-bottom: dotted 5px rgb(121, 52, 170);
+    
 }
 section div {
     text-align: center;
     margin: 35px;
     padding: 25px;
 }
-.work {
-    background-image: url(../../run-buddy/index1.html)
+.work-section {
+    border-bottom: dotted 5px rgb(121, 52, 170);
 }
+/*Work grid style*/
+.grid-container {
+    display: grid;
+    background-color: rgba(255, 245, 238, 0.398);
+    grid-template-columns: 1fr, repeat( 2,1);
+    grid-template-rows: repeat(3 , 1fr);
+    margin: 10px 15px;
+    column-gap: 15px;
+    border: solid 4px rgb(100, 38, 38);
+}
+.grid-item1 {
+    font-size: 20px;
+    grid-column-start: 2 ;
+    grid-column-end: 2;
+    grid-row-start: 2 / 3;
+    column-gap: 10px;
+    row-gap: 10px;
+    
+}
+.grid-item2 {
+    font-size: 20px;
+    grid-column-start: 3 ;
+    grid-column-end: 3;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+/*Footer/Contact stlye*/
 footer div {
     text-align: center;
     margin: 20px;
@@ -42,6 +77,6 @@ footer div {
     font-size: 25px;
    
 }
-.work {
-    font-size: 20px;
+.img-me {
+    width: 25%;
 }
